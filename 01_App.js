@@ -23,7 +23,7 @@ app.get('/accueil', function (req, res) {
 })
 
 
-
+//affiche le contenu
 app.get('/adresses', function (req, res) {
 	 var cursor = db.collection('adresse').find().toArray(function(err, resultat){
  if (err) return console.log(err)
