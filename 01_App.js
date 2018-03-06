@@ -104,7 +104,7 @@ app.get('/vider', (req, res) => {
  })
 
 
-
+//Permet de rechercher par nom
 app.post('/rechercher', (req, res) => {
 
 	console.log("test = " + req.body.recherche);
