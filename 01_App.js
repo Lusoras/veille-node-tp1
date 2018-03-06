@@ -44,6 +44,7 @@ app.post('/ajouter', (req, res) => {
  })
 })
 
+
 // détruit un contenu en particulier
 app.get('/detruire/:id', (req, res) => {
  var id = req.params.id
@@ -55,6 +56,7 @@ if (err) return console.log(err)
  res.redirect('/adresses')  // redirige vers la route qui affiche la collection
  })
 })
+
 
 //permet de trier
 app.get('/trier/:cle/:ordre', (req, res) => {
@@ -68,6 +70,7 @@ app.get('/trier/:cle/:ordre', (req, res) => {
 		res.render('gabarit.ejs', {adresses: resultat, cle, ordre})
 	})
 })
+
 
 //modifie un contenu
 app.post('/modifier', (req, res) => {
@@ -92,6 +95,7 @@ db.collection('adresse').insertMany(peupler(), (err, result) => {
  res.redirect('/adresses')
  })
 })
+
 
 //vide le contenu
 app.get('/vider', (req, res) => {
