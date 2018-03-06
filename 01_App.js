@@ -126,9 +126,6 @@ app.post('/rechercher', (req, res) => {
 
 
 
-
-
-
 let db // variable qui contiendra le lien sur la BD
 
 MongoClient.connect('mongodb://127.0.0.1:27017/carnet_adresse', (err, database) => {
