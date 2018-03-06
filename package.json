@@ -1,7 +1,7 @@
 {
-  "name": "veille-node-6-master",
+  "name": "veille-node-tp1",
   "version": "1.0.0",
-  "description": "Exercice 6",
+  "description": "Tp1",
   "main": "01_App.js",
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -11,7 +11,7 @@
   },
    "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lusoras/veille-node-6.git"
+    "url": "git+https://github.com/Lusoras/veille-node-tp1.git"
   },
   "devDependencies": {},
   "scripts": {
