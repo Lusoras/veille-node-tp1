@@ -9,7 +9,7 @@ const maxFam = tableau.tabFam.length
 const maxTell = tableau.tabTell.length
 const maxDomaine = tableau.tabDomaine.length
 
-
+//Fonctionne peupleur
 
 const peupler=()=>{
 	console.log("ok")
